@@ -74,4 +74,11 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  .emptyMessage {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+  padding: 20px;
+}
   
