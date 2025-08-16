@@ -17,7 +17,7 @@ export default function Pagination({ pageCount, currentPage, onPageChange }: Pag
       breakLabel="..."
       pageCount={pageCount}
       forcePage={currentPage - 1} 
-      onPageChange={(selected) => onPageChange(selected.selected + 1)}
+      onPageChange={({selected}) => onPageChange(selected + 1)}
     />
   );
 }

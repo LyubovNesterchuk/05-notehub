@@ -7,4 +7,3 @@ export interface Note{
     tag: string,
 }
 
-// export type NoteID = Note["id"]; tag: "Todo"|"Work"|"Personal"|"Meeting"|"Shopping",
